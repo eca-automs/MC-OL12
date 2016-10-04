@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-232.6792899408284
+246.5045703839123
  22
-150.2573964497041
+151.2148080438757
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-304.0295857988166
+307.8592321755028
  41
-1.680924855491329
+1.839506172839506
  42
 50
  43
@@ -19135,52 +19135,6 @@ MTEXT
 100
 AcDbEntity
   8
-frame-title
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-304
- 20
-35
- 30
-0
- 40
-3
- 41
-33.5833326973273
- 71
-    1
- 72
-    1
-  1
-Schema: MC-OL12\PAutore: Belardi\PData: 01/16\PFoglio: 12 di 17
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-26C
-100
-AcDbEntity
-  8
 labels
   6
 ByLayer
@@ -19223,7 +19177,7 @@ standard
   0
 MTEXT
   5
-26D
+26C
 100
 AcDbEntity
   8
@@ -19269,7 +19223,7 @@ standard
   0
 MTEXT
   5
-26E
+26D
 100
 AcDbEntity
   8
@@ -19315,7 +19269,7 @@ standard
   0
 INSERT
   5
-26F
+26E
 100
 AcDbEntity
   8
@@ -19355,7 +19309,7 @@ junction
   0
 INSERT
   5
-270
+26F
 100
 AcDbEntity
   8
@@ -19395,7 +19349,7 @@ junction
   0
 LINE
   5
-271
+270
 100
 AcDbEntity
   8
@@ -19419,7 +19373,7 @@ AcDbLine
   0
 LINE
   5
-272
+271
 100
 AcDbEntity
   8
@@ -19443,7 +19397,7 @@ AcDbLine
   0
 LINE
   5
-273
+272
 100
 AcDbEntity
   8
@@ -19464,6 +19418,52 @@ AcDbLine
 321.427780511811
  21
 160.9526328740158
+  0
+MTEXT
+  5
+273
+100
+AcDbEntity
+  8
+frame-title
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+304
+ 20
+35
+ 30
+0
+ 40
+3
+ 41
+33.5833326973273
+ 71
+    1
+ 72
+    1
+  1
+Schema: MC-OL12\PAutore: Belardi\PData: 01/16\PFoglio: 12 di 18
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
   0
 ENDSEC
   0

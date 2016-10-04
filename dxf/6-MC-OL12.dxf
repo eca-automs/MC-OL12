@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.5
+10000000000
  20
-0.25
+10000000000
  30
 0
   9
 $EXTMAX
  10
-419.5
+-10000000000
  20
-297.25
+-10000000000
  30
 0
   9
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-232.6792899408284
+232.7140039447732
  22
-150.2573964497041
+150.4061707523246
  13
 0
  23
@@ -1145,7 +1145,7 @@ AcDbViewportTableRecord
  40
 304.0295857988166
  41
-1.680924855491329
+1.839506172839506
  42
 50
  43
@@ -2729,7 +2729,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D1
+*D2
  70
     0
 280
@@ -2747,7 +2747,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D3
+*D1
  70
     0
 280
@@ -2765,7 +2765,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D2
+*D3
  70
     0
 280
@@ -3103,6 +3103,106 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
+*D2
+ 70
+    1
+ 10
+0
+ 20
+0
+  3
+*D2
+  1
+
+  0
+LINE
+  5
+84
+100
+AcDbEntity
+  8
+schematic
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbLine
+ 10
+165.8666338582677
+ 20
+117.0155019685039
+ 11
+201.6529281496063
+ 21
+117.0155019685039
+  0
+SOLID
+  5
+85
+100
+AcDbEntity
+  8
+schematic
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbTrace
+ 10
+165.8666338582677
+ 20
+117.0155019685039
+ 30
+0
+ 11
+168.3666338582677
+ 21
+117.4317866262767
+ 31
+0
+ 12
+168.3666338582677
+ 22
+116.5992173107311
+ 32
+0
+ 13
+168.3666338582677
+ 23
+116.5992173107311
+ 33
+0
+  0
+ENDBLK
+  5
+56
+330
+54
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+58
+330
+57
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
 *D1
  70
     1
@@ -3117,7 +3217,7 @@ AcDbBlockBegin
   0
 LINE
   5
-84
+86
 100
 AcDbEntity
   8
@@ -3141,7 +3241,7 @@ AcDbLine
   0
 LINE
   5
-85
+87
 100
 AcDbEntity
   8
@@ -3165,7 +3265,7 @@ AcDbLine
   0
 SOLID
   5
-86
+88
 100
 AcDbEntity
   8
@@ -3205,9 +3305,9 @@ AcDbTrace
   0
 ENDBLK
   5
-56
+59
 330
-54
+57
 100
 AcDbEntity
   8
@@ -3217,9 +3317,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-58
+5B
 330
-57
+5A
 100
 AcDbEntity
   8
@@ -3241,7 +3341,7 @@ AcDbBlockBegin
   0
 LINE
   5
-87
+89
 100
 AcDbEntity
   8
@@ -3265,7 +3365,7 @@ AcDbLine
   0
 SOLID
   5
-88
+8A
 100
 AcDbEntity
   8
@@ -3300,106 +3400,6 @@ AcDbTrace
 235.3179133858268
  23
 117.4317866262767
- 33
-0
-  0
-ENDBLK
-  5
-59
-330
-57
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-5B
-330
-5A
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-*D2
- 70
-    1
- 10
-0
- 20
-0
-  3
-*D2
-  1
-
-  0
-LINE
-  5
-89
-100
-AcDbEntity
-  8
-schematic
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbLine
- 10
-165.8666338582677
- 20
-117.0155019685039
- 11
-201.6529281496063
- 21
-117.0155019685039
-  0
-SOLID
-  5
-8A
-100
-AcDbEntity
-  8
-schematic
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbTrace
- 10
-165.8666338582677
- 20
-117.0155019685039
- 30
-0
- 11
-168.3666338582677
- 21
-117.4317866262767
- 31
-0
- 12
-168.3666338582677
- 22
-116.5992173107311
- 32
-0
- 13
-168.3666338582677
- 23
-116.5992173107311
  33
 0
   0
@@ -18081,7 +18081,7 @@ AcDbMText
  72
     1
   1
-Schema: MC-OL12\PAutore: Belardi\PData: 01/16\PFoglio: 6 di 17
+Schema: MC-OL12\PAutore: Belardi\PData: 01/16\PFoglio: 6 di 18
   7
 standard
 210
